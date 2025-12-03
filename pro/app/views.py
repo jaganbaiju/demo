@@ -13,3 +13,6 @@ def contact(request):
 
 def delete(request):
     return HttpResponse("deleted")
+
+def details(request):
+    return HttpResponse("no details")
