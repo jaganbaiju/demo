@@ -10,3 +10,6 @@ def about(request):
 
 def contact(request):
     return HttpResponse("Contact")
+
+def delete(request):
+    return HttpResponse("deleted")
