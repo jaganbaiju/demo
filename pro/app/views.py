@@ -7,3 +7,6 @@ def index(request):
 
 def about(request):
     return HttpResponse("This is About Page")
+
+def contact(request):
+    return HttpResponse("Contact")
