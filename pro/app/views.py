@@ -19,3 +19,6 @@ def details(request):
 
 def detailsssss(request):
     return HttpResponse("no details")
+
+def loc(request):
+    return "hrllo"
