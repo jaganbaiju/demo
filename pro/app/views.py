@@ -16,3 +16,6 @@ def delete(request):
 
 def details(request):
     return HttpResponse("no details")
+
+def detailsssss(request):
+    return HttpResponse("no details")
